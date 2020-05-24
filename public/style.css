@@ -15,6 +15,8 @@
 #title h1{
     font-size: x-large;
     color: yellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #title p{
     margin-top: 10px;
