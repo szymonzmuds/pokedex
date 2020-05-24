@@ -1,0 +1,162 @@
+
+#title{
+    text-align: center;
+    background-color: red;
+    padding-top: 20px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    height: 120px;
+    z-index: 2;
+    margin-bottom: 0px;
+}
+#title h1{
+    font-size: x-large;
+    color: yellow;
+}
+#title p{
+    margin-top: 10px;
+    color: black;
+}
+
+#inf{
+    position: sticky;
+    top: 140px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    height: 50px;
+
+    z-index: 2;
+
+}
+
+#inf button{
+    display: inline-block;
+    border-radius: 10px;
+    border: black solid 1px;
+    padding: 5px;
+    margin-top: 10px;
+    margin: 5px;
+    width: 20%;
+}
+
+#inf button:hover{
+    background-color: darkgrey;
+}
+
+body p{
+    text-align: center;
+}
+
+#poke{
+    position: static;
+
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+#poke inf{
+    text-align: center;
+}
+
+#poke button{
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#poke button:hover{
+    background-color: gray;
+}
+
+#poke p{
+    position: static;
+    left: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#poke div{
+    background-color: white;
+    position: static;
+    margin: auto;
+    color: black;
+    padding: 5px;
+
+    text-align: right;
+
+}
+
+#poke div button{
+    right: 10px;
+    border-radius: 10px;
+    border: black solid 1px;
+}
+
+#poke div button:hover{
+    right: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    color: black;
+}
+
+#poke_box{
+    width: 48%;
+    float: left;
+}
+
+#poke_row{
+    width: 100%;
+
+}
+
+@media screen and (max-width: 1000px) {
+    #poke_box{
+        width: 100%;
+        float: none;
+    }
+}
+
+#parent{
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+#parent p{
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+#img{
+    float: left;
+    position: relative;
+    left: 10px;
+}
+
+#parent div{
+    display: inline-block;
+    width: 40%;
+}
+
+
+
+
+
